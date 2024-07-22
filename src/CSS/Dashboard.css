@@ -1,0 +1,85 @@
+.dash {
+  top: 0;
+  width: 100%;
+  background: #fff; 
+    background-image: url('https://img.freepik.com/free-vector/minimalist-gradient-background-design-template_483537-2861.jpg?t=st=1721485533~exp=1721489133~hmac=da7dfa3cc6f8a1b0a396431bed3263f79a46b1242cdb4028a47cd2aebde56437&w=1060');
+    background-repeat: no-repeat;
+    background-size: cover;
+ height:728px;
+overflow: hidden;
+
+}
+.dash a{
+  float: right;
+}
+ .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+  }
+  
+  .projectcard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .projectcard:hover {
+    transform: scale(1.05);
+  }
+  
+  .projectcard img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .projectcard h2 {
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .projectcard p {
+    color: #666;
+  }
+  
+  .projectcard a {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .projectcard a:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width:600px) {
+    .projects {
+display: flex;
+flex-direction: row;
+      justify-content: center;
+      padding-left: 8%;
+      margin: 20px;
+      height: 300px;
+    }
+    .dash{
+  overflow: visible;
+      width: 100%;
+      background-image: url('https://img.freepik.com/free-vector/minimalist-gradient-background-design-template_483537-2861.jpg?t=st=1721485533~exp=1721489133~hmac=da7dfa3cc6f8a1b0a396431bed3263f79a46b1242cdb4028a47cd2aebde56437&w=1060');
+      background-repeat: no-repeat;
+      background-size: cover;
+   height:1600px;
+    }
+
+  }

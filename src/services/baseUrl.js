@@ -1,0 +1,1 @@
+export const baseUrl = "https://profile-task-backend.onrender.com"
